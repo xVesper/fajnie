@@ -1,0 +1,19 @@
+Kacper Jasiuczenia
+
+T1	 		T2	 	Czy s¹ zunifikowane?	 Typy
+policjant 		policjant		Tak		atom, atom
+X			Y			Tak		var, var
+papier			kartka			Nie		atom, atom
+125			125			Tak		integer, integer
+rzeczownik(alfa)	alfa			Nie		compound, atom
+punkt(A,b,c)		punkt(A,b,c)		Tak		compound, compound
+litera(C)		slowo(litera)		Nie		compound, compound
+slowo(C)		slowo(ania,ewa)		Nie		compound, compound
+jedzie(student,rower)	jedzie(student,X)	Tak		compound, compound
+'student'		student			Tak		compound, compound
+para(X,Y)		para(jacek,ewa)		Tak		compound, compound
+f(X,X)			f(a,b)			Nie		compound, compound
+f(X,a(b,c))		f(Z,a(Z,c))		Tak		compound, compound
+fu(a,X,f(g(Y)))		fu(V,h(Z,V),f(V))	Nie		compound, compound
+fu(a,X,f(g(Y)))		fu(Y,f(Z),f(Z))		Tak		compound, compound
+fu(f(X),Y,a)		fu(f(g(Y)),c,Z)		Tak		compound, compound
