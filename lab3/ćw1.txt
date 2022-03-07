@@ -1,0 +1,11 @@
+
+T1				T2
+policjant			policjant		tak	atom, atom
+X				Y			tak	var,  var
+125				125			tak     integer, integer
+punkt(A,b,c)			punkt(A,b,c)		tak	z這穎ny, z這穎ny
+jedzie(student,rower)		jedzie(student,X)	tak	z這穎ny, z這穎ny
+para(X,Y)			para(jacek,ewa)		tak	z這zony, z這穎ny	
+f(X,a(b,c))			f(Z,a(Z,c))		tak	z這zony, z這zony
+fu(a,X,f(g(Y)))			fu(Y,f(Z),f(Z))		tak	z這穎ny, z這穎ny
+fu(f(X),Y,a) 			fu(f(g(Y)),c,Z)		tak	z這穎ny, z這穎ny
