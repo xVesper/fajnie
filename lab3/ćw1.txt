@@ -3,9 +3,9 @@ T1				T2
 policjant			policjant		tak	atom, atom
 X				Y			tak	var,  var
 125				125			tak     integer, integer
-punkt(A,b,c)			punkt(A,b,c)		tak	z≥oøony, z≥oøony
-jedzie(student,rower)		jedzie(student,X)	tak	z≥oøony, z≥oøony
-para(X,Y)			para(jacek,ewa)		tak	z≥ozony, z≥oøony	
-f(X,a(b,c))			f(Z,a(Z,c))		tak	z≥ozony, z≥ozony
-fu(a,X,f(g(Y)))			fu(Y,f(Z),f(Z))		tak	z≥oøony, z≥oøony
-fu(f(X),Y,a) 			fu(f(g(Y)),c,Z)		tak	z≥oøony, z≥oøony
+punkt(A,b,c)			punkt(A,b,c)		tak	z≈Ço≈ºony, z≈Ço≈ºony
+jedzie(student,rower)		jedzie(student,X)	tak	z≈Ço≈ºony, z≈Ço≈ºony
+para(X,Y)			para(jacek,ewa)		tak	z≈Çozony, z≈Ço≈ºony	
+f(X,a(b,c))			f(Z,a(Z,c))		tak	z≈Çozony, z≈Çozony
+fu(a,X,f(g(Y)))			fu(Y,f(Z),f(Z))		tak	z≈Ço≈ºony, z≈Ço≈ºony
+fu(f(X),Y,a) 			fu(f(g(Y)),c,Z)		tak	z≈Ço≈ºony, z≈Ço≈ºony
